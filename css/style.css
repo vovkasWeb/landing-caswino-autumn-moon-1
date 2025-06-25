@@ -377,7 +377,7 @@ body {
 	.main {
 		background-image: url('../img/bg-mini.webp');
 		background-position: left;
-		background-position-y: 130px;
+		background-position-y: 180px;
 	}
 	.main__btn {
 		margin: auto auto 10px auto;
