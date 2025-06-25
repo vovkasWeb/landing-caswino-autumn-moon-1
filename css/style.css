@@ -63,7 +63,7 @@ body {
 }
 
 .main__wrapper {
-	padding: clamp(20px, 5vw, 52px) 0px clamp(30px, 5vw, 120px);
+	padding: clamp(10px, 3vw, 52px) 0px clamp(15px, 3vw, 120px);
 }
 .main__title-block {
 	padding-top: 65px;
@@ -71,14 +71,14 @@ body {
 }
 .main__title {
 	margin-top: clamp(0px, 5vw, 5px);
-	font-size: clamp(40px, 5vw, 85px);
+	font-size: clamp(55px, 5vw, 85px);
 	line-height: 100%;
 	font-weight: 900;
 	color: #ffbc00;
 }
 .main__subtitle {
 	margin-top: clamp(0px, 5vw, 5px);
-	font-size: clamp(28px, 3vw, 45px);
+	font-size: clamp(28px, 5vw, 45px);
 	line-height: 100%;
 	font-weight: 700;
 }
@@ -335,6 +335,13 @@ body {
 		display: flex;
 		flex-direction: column;
 	}
+	.main__title {
+		font-size: 60px;
+	}
+	.main__subtitle {
+		font-size: 32px;
+	}
+
 	.main__progress {
 		display: grid;
 		place-items: center; /* объединяет align-items и justify-items */
@@ -344,6 +351,7 @@ body {
 	}
 	.main__title-block {
 		margin-bottom: 30px;
+		padding-top: 10px;
 	}
 	.main__title {
 		margin: 0 auto;
@@ -369,6 +377,7 @@ body {
 	.main {
 		background-image: url('../img/bg-mini.webp');
 		background-position: left;
+		background-position-y: 130px;
 	}
 	.main__btn {
 		margin: auto auto 10px auto;
@@ -382,9 +391,6 @@ body {
 	.main__steps-bar .main__box-bar:nth-child(3) {
 		margin-left: 45px;
 	}
-	.main__title-block {
-		padding-top: 5px;
-	}
 	.logo svg {
 		width: 120px;
 	}
@@ -397,6 +403,12 @@ body {
 	.main__steps-bar {
 		max-width: 350px;
 	}
+	.main__title {
+		font-size: 56px;
+	}
+	.main__subtitle {
+		font-size: 30px;
+	}
 }
 @media (max-width: 385px) {
 	.main__steps-bar .main__box-bar:nth-child(2) {
@@ -408,6 +420,12 @@ body {
 	.main__title {
 		margin: 0 auto;
 		text-align: center;
+	}
+	.main__title {
+		font-size: 54px;
+	}
+	.main__subtitle {
+		font-size: 28px;
 	}
 }
 @media (max-width: 365px) {
